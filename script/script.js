@@ -161,7 +161,7 @@ const renderQuestion = () => {
                       ${currentQuestion == 9 ? 'checkbox-container-max' : ''}
                     ">
                       <input 
-                        type="checkbox" 
+                        type="radio" 
                         id="answerChoice${index}" 
                         name="answerChoice" 
                         value="${item}"
