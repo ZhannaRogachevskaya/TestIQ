@@ -1,0 +1,54 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'PT Serif';
+    color: #FFFFFF;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{
+    cursor: pointer;
+    font-family: 'Merriweather';
+    color: #000000;
+    }
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 34.65px;
+    color: #FFC700;
+}
+h2{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 13.86px;
+    color: #FFC700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+h3{
+    font-family: 'PT Serif';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26.5px;
+    letter-spacing: 5%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
